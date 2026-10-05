@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "benign": 437,
+    "malignant": 210,
+    "normal": 133
+  },
+  "duplicate_groups": [
+    [
+      "benign/benign (433).png",
+      "malignant/malignant (145).png"
+    ]
+  ],
+  "secondary_masks": [
+    "benign/benign (54)_mask_1.png",
+    "benign/benign (92)_mask_1.png",
+    "benign/benign (195)_mask_2.png",
+    "benign/benign (58)_mask_1.png",
+    "benign/benign (195)_mask_1.png",
+    "benign/benign (424)_mask_1.png",
+    "benign/benign (315)_mask_1.png",
+    "benign/benign (98)_mask_1.png",
+    "benign/benign (83)_mask_1.png",
+    "benign/benign (4)_mask_1.png",
+    "benign/benign (181)_mask_1.png",
+    "benign/benign (93)_mask_1.png",
+    "benign/benign (25)_mask_1.png",
+    "benign/benign (100)_mask_1.png",
+    "benign/benign (173)_mask_1.png",
+    "benign/benign (163)_mask_1.png",
+    "benign/benign (346)_mask_1.png",
+    "malignant/malignant (53)_mask_1.png"
+  ]
+}

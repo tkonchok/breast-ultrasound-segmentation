@@ -1,0 +1,73 @@
+{
+  "threshold": 0.5,
+  "model": {
+    "all_images": {
+      "n": 116,
+      "dice": 0.45474108195916324,
+      "iou": 0.35161016830054287,
+      "pixel_accuracy": 0.9415914601293104
+    },
+    "tumor_images": {
+      "n": 96,
+      "dice": 0.5390621407006556,
+      "iou": 0.4144456200298226,
+      "pixel_accuracy": 0.9357706705729166
+    },
+    "by_category": {
+      "benign": {
+        "n": 65,
+        "dice": 0.5225522144073673,
+        "iou": 0.3998824254448783,
+        "pixel_accuracy": 0.9454974834735577
+      },
+      "malignant": {
+        "n": 31,
+        "dice": 0.5736797280898085,
+        "iou": 0.44498135061115746,
+        "pixel_accuracy": 0.915375740297379
+      },
+      "normal": {
+        "n": 20,
+        "dice": 0.05,
+        "iou": 0.05,
+        "pixel_accuracy": 0.96953125
+      }
+    },
+    "normal_false_positive_image_rate": 0.95
+  },
+  "all_background_baseline": {
+    "all_images": {
+      "n": 116,
+      "dice": 0.1724137931034483,
+      "iou": 0.1724137931034483,
+      "pixel_accuracy": 0.932549838362069
+    },
+    "tumor_images": {
+      "n": 96,
+      "dice": 0.0,
+      "iou": 0.0,
+      "pixel_accuracy": 0.9184977213541666
+    },
+    "by_category": {
+      "benign": {
+        "n": 65,
+        "dice": 0.0,
+        "iou": 0.0,
+        "pixel_accuracy": 0.93612060546875
+      },
+      "malignant": {
+        "n": 31,
+        "dice": 0.0,
+        "iou": 0.0,
+        "pixel_accuracy": 0.8815465127268145
+      },
+      "normal": {
+        "n": 20,
+        "dice": 1.0,
+        "iou": 1.0,
+        "pixel_accuracy": 1.0
+      }
+    },
+    "normal_false_positive_image_rate": 0.0
+  }
+}

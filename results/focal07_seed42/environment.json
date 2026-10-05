@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "tensorflow": "2.20.0",
+  "numpy": "2.5.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "devices": [
+    "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+  ]
+}

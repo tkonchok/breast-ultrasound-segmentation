@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 30,
+  "parameters": 1946705,
+  "optimizer_updates": 1050,
+  "best_epoch": 28,
+  "checkpoint_metric": "validation all-image macro Dice"
+}

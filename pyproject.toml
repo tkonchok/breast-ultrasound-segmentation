@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "busi-segmentation-study"
+version = "0.1.0"
+description = "An auditable U-Net ablation study of breast ultrasound segmentation"
+requires-python = ">=3.12,<3.14"
+dependencies = ["numpy>=1.26,<3", "Pillow>=10,<13"]
+
+[project.optional-dependencies]
+train = ["tensorflow>=2.16,<2.21", "matplotlib>=3.8,<4"]
+data = ["kagglehub>=0.3,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

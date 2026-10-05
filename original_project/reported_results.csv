@@ -1,0 +1,15 @@
+,Loss,Accuracy,IoU,Dice
+"Control: No residual connection, no attention, ReLU, Binary Cross Entropy Loss, Batch 128",0.217,0.942,0.482,0.565
+Residual Connection,0.1378,0.951,0.244,0.661
+Swish,0.289,0.949,0.618,0.692
+Leaky ReLU,0.186,0.946,0.556,0.621
+Attention,0.213,0.942,0.518,0.584
+IoU Loss,0.683,0.947,0.558,0.621
+Dice Loss,0.729,0.928,0.479,0.534
+BFC (alpha = 0.6),0.0267,0.9518,0.6113,0.688
+BFC (alpha = 0.7),0.023,0.953,0.644,0.727
+BFC (alpha = 0.8),0.14,0.394,0.099,0.164
+Batch size = 16,0.1521,0.9552,0.6449,0.7151
+Batch size = 32,0.6245,0.9094,0.1741,0.1741
+Batch size = 64,0.6706,0.9094,0.1808,0.1808
+BFC (alpha = 0.7) + Swish + (Batch size=16),0.0204,0.9476,0.6095,0.6789

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "benign/benign (433).png",
+    "image_sha256": "bea8a9762e7799e6a3db2431e0719580748c65a50aabbc0df760ca3d6bd9c812",
+    "reason": "Exact decoded-image duplicate across benign/malignant categories with different foreground masks; exclude both ambiguous records before splitting."
+  },
+  {
+    "id": "malignant/malignant (145).png",
+    "image_sha256": "bea8a9762e7799e6a3db2431e0719580748c65a50aabbc0df760ca3d6bd9c812",
+    "reason": "Exact decoded-image duplicate across benign/malignant categories with different foreground masks; exclude both ambiguous records before splitting."
+  }
+]

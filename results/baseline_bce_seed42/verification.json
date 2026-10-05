@@ -1,0 +1,7 @@
+{
+  "checkpoint_reload_matches_saved_validation": true,
+  "validation_batch16_matches_batch7": true,
+  "validation_images": 116,
+  "all_image_dice": 0.37037725447427466,
+  "tumor_image_dice": 0.44753918248974855
+}

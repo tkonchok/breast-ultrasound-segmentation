@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.cache/
+data/
+runs/
+*.keras
+*.weights.h5
+*.npy
+*.npz
+*.zip
+.ipynb_checkpoints/

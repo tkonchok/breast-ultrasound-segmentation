@@ -1,0 +1,36 @@
+{
+  "study": {
+    "protocol": "corrected-original-v1",
+    "dataset": "aryashah2k/breast-ultrasound-images-dataset/versions/1",
+    "split": "image-level stratified 70/15/15; seed 42; two audited ambiguous duplicates excluded",
+    "training_seeds": [
+      42
+    ],
+    "epochs": 30,
+    "batch_size": 16,
+    "base_filters": 16,
+    "learning_rate": 0.0001,
+    "threshold": 0.5,
+    "experiments": [
+      {
+        "name": "baseline_bce_seed42",
+        "loss": "bce",
+        "activation": "relu",
+        "residual": false,
+        "attention": false
+      },
+      {
+        "name": "focal07_seed42",
+        "loss": "focal",
+        "alpha": 0.7,
+        "gamma": 2,
+        "activation": "relu",
+        "residual": false,
+        "attention": false
+      }
+    ],
+    "selection": "checkpoint by validation all-image macro Dice; compare both prespecified configurations on test after training completes",
+    "interpretation": "Single-seed exploratory comparison; no statistical superiority or patient-level generalization claim. Compact width differs from the original 64-channel model; historical scores are not directly comparable."
+  },
+  "study_sha256": "6b6dc52a388d9e8024c68a618f87cfdcd4842c1444e462b3ba8b062d37ae732f"
+}

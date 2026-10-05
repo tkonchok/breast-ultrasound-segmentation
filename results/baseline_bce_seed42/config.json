@@ -1,0 +1,18 @@
+{
+  "command": "train",
+  "data_root": "data/cache/datasets/aryashah2k/breast-ultrasound-images-dataset/versions/1/Dataset_BUSI_with_GT",
+  "manifest": "results/splits.json",
+  "exclusions": "configs/data_exclusions.json",
+  "run": "runs/baseline_bce_seed42",
+  "seed": 42,
+  "batch_size": 16,
+  "epochs": 30,
+  "base_filters": 16,
+  "cpu_threads": 4,
+  "loss": "bce",
+  "alpha": 0.7,
+  "activation": "relu",
+  "residual": false,
+  "attention": false,
+  "no_augmentation": false
+}

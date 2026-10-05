@@ -1,0 +1,8 @@
+{
+  "metrics.py": "abef408a1bafc1fce5ef27e29b894e57c1cfe61f7052eb61d8a0912bbf1f1fa9",
+  "predict.py": "fbda662881b00449764c111ecdf729c2309904c1f3ccc33f3a4e1ed86e5ca09d",
+  "__init__.py": "ef2a8f23ccd05bb5def408cb00363b1c92fce1659853f412caba655bdffbcf11",
+  "model.py": "04609078af167b7f294dc59ed875958c6c3e87fcad3ac2bee0dc111250c23b1b",
+  "cli.py": "8c04775dbaaf6879673e1c71967c794bdc9b20ecdb92b4be49bb9d4723bf2ff4",
+  "data.py": "3d8b49eea425c1bbca915e0a5241a0d113f80f53c6e10827e776ebf9a9269dfd"
+}
